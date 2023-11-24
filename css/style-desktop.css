@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* GENERAL SETTINGS */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1,2em;
+    color: #393d41;
+    line-height: 1.65;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* IMAGE SETTINGS */
+
+img {
+    width: 100%;
+}
+
+header img {
+    max-height: 50px;
+    width:auto;
+}
+
+#notebook {
+    display: inline-block;
+    padding: 0 30px;
+}
+
+#notebook img {
+    border-radius: 100%;
+}
+
+figure img {
+    aspect-ratio: 4/3;
+    object-fit: cover;
+}
+
+/* TEXT ELEMENT SETTINGS */
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #25a2c3;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: 35px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 15px;
+}
+
+p, figcaption {
+    margin-top: 10px;
+}
+
+span {
+    font-size: 0.8em;
+}
+
+blockquote {
+    font-size: 1.8em;
+    font-weight: 300;
+    font-style: italic;
+    margin: 30px 0;
+}
+
+#contacts {
+    display: inline-block;
+    text-align: left;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #c8e7f0;
+}
+
+#contacts h1 {
+    font-size: 2.8em;
+}
+
+address {
+    margin-top: 20px;
+}
+
+footer a {
+    color: #c8e7f0;
+}
+
+footer span {
+    display: block;
+}
+
+#second-section, .white, button {
+    color: white;
+}
+
+button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 25px;
+    margin: 30px auto 0;
+    cursor: pointer;
+}
+
+/* BOX SETTINGS */
+
+header {
+    background-color: black;
+    height: 60px;
+    padding: 30px 50px;
+    text-align: start;
+}
+
+#main-section {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    height: 500px;
+}
+
+#main-section div {
+    max-width: 650px;
+    margin: 125px auto;
+}
+
+.notbox {
+    padding: 20px;
+    margin: 100px 0;
+}
+
+.notbox div {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    max-width: 450px;
+}
+
+#second-section {
+    background-color: #e22d0e;
+    padding: 30px;
+    margin-top: 100px; 
+    height: 400px;
+}
+
+#second-section div {
+    margin: 100px auto;
+}
+
+figure {
+    display: inline-block;
+    border: 1px solid #dee1e3;
+    border-radius: 3px;
+    margin: 0 20px;
+    padding-bottom: 30px;
+    max-width: 388px;
+}
+
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding: 1px 30px 30px 30px;
+}
